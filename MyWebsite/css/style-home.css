@@ -1,0 +1,75 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    float: left;
+}
+.navbar li{
+    color: #f2e6e6;
+}
+
+/* Add a gray background color and some padding to the footer */
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    max-height: 800px;
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+#googleMap {
+    height: 500px;
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+}
+.container img{
+    margin-left: 75px;
+}
+.container{
+    margin-top: 100px;
+}
+footer{
+    background-color: black;
+}
+footer a{
+    padding-top: 50px;
+}
+footer p,a{
+    color: antiquewhite;
+}
+#div1{
+    background-color: #d2d2d25c;
+    height: 600px;
+}
+#cap1{
+    margin-bottom: 70px;
+    margin-left: 700px;
+}
+#cap2{
+    margin-right: 1000px;
+    margin-bottom: 500px;
+    color: black;
+}
+#myNavbar a{
+    color: antiquewhite;
+    font-family: Impact;
+}
+#info{
+    height: 500px;
+    background-color: #f2f2f2;
+}
+#threebtn h3{
+    margin-top: 50px;
+}
+#threebtn a{
+    text-decoration: none;
+    color: black;
+}
+
+
