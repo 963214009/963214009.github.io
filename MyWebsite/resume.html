@@ -4,66 +4,69 @@
     <meta charset="UTF-8">
     <title>MY RESUME</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/resume_style.css">
+
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header col-lg-6">
-            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">-->
-            <!--<span class="icon-bar"></span>-->
-            <!--<span class="icon-bar"></span>-->
-            <!--<span class="icon-bar"></span>-->
-            <!--</button>-->
-            <a class="navbar-brand" href="index.html">Jaden</a>
-        </div>
-        <div class="collapse navbar-collapse col-lg-3" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="resume.html">Resume</a></li>
-                <li><a href="https://github.com/963214009" target="_blank">My Github</a></li>
-                <li><a href="https://github.com/CMPUT301W17T14/OurMood" target="_blank">Projects</a></li>
-                <li><a href="index.html">Contact Me</a></li>
-            </ul>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #bbd2e2eb">
+        <a class="navbar-brand pl-2" href="#" style="color: #92791c">Ja<i class="fab fa-cloudversify" style="font-size: 40px;color: #e68509d6"></i>den</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        </div>
-        <div class="navbar col-lg-3 navbar-right">
-            <ul class="nav navbar-nav">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            </ul>
-            <form class="navbar-form">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                    <div class="input-group-btn">
-                        <button class="btn btn-default" type="submit">
-                            <i class="glyphicon glyphicon-search"></i>
-                        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav mr-auto ml-5">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item active"><a class="nav-link" href="resume.html">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://github.com/963214009" target="_blank">My Github</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Project
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Project1</a>
+                        <a class="dropdown-item" href="#">Project2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Project3</a>
                     </div>
-                </div>
-            </form>
-        </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Contact Me</a></li>
 
-    </div>
-</nav>
+                <li class="nav-item ml-lg-5"><a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Sign Up</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-fort-awesome-alt"></i> Login</a></li>
+            </ul>
+
+            <form class="form-inline" >
+                <input type="text" class="form-control" placeholder="Search">
+                <button class="btn btn-default my-2 mx-0 text-success" type="submit" style="background-color: white">
+                    <i class="fab fa-searchengin"></i>
+                </button>
+            </form>
+
+        </div>
+    </nav>
+</div>
 
 
 <div class="container" id="resume_div">
     <h2>Thank you for viewing my resume !</h2>
     <br>
     <br>
-    <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h2 class="panel-title">
-                    <a class="text-info" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Covering Letter</a>
-                </h2>
+
+    <div id="accordion">
+
+        <div class="card">
+            <div class="card-header">
+                <h4><a style="color: black" class="card-link" data-toggle="collapse" href="#collapse1">Covering Letter</a></h4>
             </div>
-            <div id="collapse1" class="panel-collapse collapse in">
-                <div class="panel-body">
+            <div id="collapse1" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
                     <pre style="font-size: 20px;">
     Dear HR:
 
@@ -90,14 +93,14 @@
                 </div>
             </div>
         </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h2 class="panel-title">
-                    <a class="text-info" data-toggle="collapse" data-parent="#accordion" href="#collapse2">Education</a>
-                </h2>
+
+
+        <div class="card">
+            <div class="card-header">
+                <h4><a style="color: black" class="card-link" data-toggle="collapse" href="#collapse2">Education</a></h4>
             </div>
-            <div id="collapse2" class="panel-collapse collapse ">
-                <div class="panel-body">
+            <div id="collapse2" class="collapse" data-parent="#accordion">
+                <div class="card-body">
 <pre style="font-size: 20px;">
     Faculty of Science, BSc with Specialization(Computing Science-Maj)
                                             -- University of Alberta
@@ -121,14 +124,12 @@
             </div>
         </div>
 
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h2 class="panel-title">
-                    <a class="text-info" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Working Experience</a>
-                </h2>
+        <div class="card">
+            <div class="card-header">
+                <h4><a style="color: black" class="card-link" data-toggle="collapse" href="#collapse3">Work Experience</a></h4>
             </div>
-            <div id="collapse3" class="panel-collapse collapse">
-                <div class="panel-body">
+            <div id="collapse3" class="collapse" data-parent="#accordion">
+                <div class="card-body">
 <pre style="font-size: 20px;">
     My current job is working in a dealership to help the company build the website.
     And I worked with the design company to do some coding for the website based on
@@ -138,7 +139,7 @@
     more over there to improve myself.
 
     I had a 2 months internship in China Unicom, and this internship brought me into
-    the actual industry. Our team is responsible for operation and 	maintenance of SMS.
+    the actual industry. Our team is responsible for operation and maintenance of SMS.
 
     The internship experience not only improve my problem-solving skill, it also teach
     me how to communicate with my team members and then cooperate with them to solve
@@ -150,14 +151,12 @@
         </div>
 
 
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h2 class="panel-title">
-                    <a class="text-info" data-toggle="collapse" data-parent="#accordion" href="#collapse4">Team Projects</a>
-                </h2>
+        <div class="card">
+            <div class="card-header">
+                <h4><a style="color: black" class="card-link" data-toggle="collapse" href="#collapse4">My Projects</a></h4>
             </div>
-            <div id="collapse4" class="panel-collapse collapse">
-                <div class="panel-body">
+            <div id="collapse4" class="collapse" data-parent="#accordion">
+                <div class="card-body">
 <pre style="font-size: 20px;">
     <strong>OurMood:</strong> <a href="https://github.com/CMPUT301W17T14/OurMood" >https://github.com/CMPUT301W17T14/OurMood</a>
     OurMood is an android application used to share users’ mood at any time and any place.
@@ -176,14 +175,12 @@
         </div>
 
 
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h2 class="panel-title">
-                    <a class="text-info" data-toggle="collapse" data-parent="#accordion" href="#collapse5">What Can I Do</a>
-                </h2>
+        <div class="card">
+            <div class="card-header">
+                <h4><a style="color: black" class="card-link" data-toggle="collapse" href="#collapse5">What Can I Do?</a></h4>
             </div>
-            <div id="collapse5" class="panel-collapse collapse">
-                <div class="panel-body">
+            <div id="collapse5" class="collapse" data-parent="#accordion">
+                <div class="card-body">
 <pre style="font-size: 20px;">
     <strong>Wordpress development:</strong> I got familiar with the Wordpress in these two months work experience.
 
